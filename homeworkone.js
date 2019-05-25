@@ -64,7 +64,7 @@ var numbers = [1, 20, 30, 100, 110, 200, 25, 300, 500, 2];
 for ( i = 0; i < 10; i++) {
 
   if (numbers[i] > 100) {
-    console.log(numbers[i])
+    console.log(numbers[i]);
   }
 
 }
@@ -77,7 +77,7 @@ var person = {
   name: 'Дмитрий',
   lastName: 'Косьянов',
   age: 22
-}
+};
 
 console.log(person.name);
 console.log(person.lastName);
